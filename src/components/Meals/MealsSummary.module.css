@@ -1,0 +1,57 @@
+.summary {
+  text-align: center;
+  max-width: 45rem;
+  width: 90%;
+  margin: auto;
+
+  margin-top: -55rem;
+  position: relative;
+  /* background-color: #383838; */
+  background-color: #fff;
+  color: rgb(217, 18, 160);
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.summary h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+/* Button Styles */
+.button {
+  margin-left: 230px;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Gradient Background */
+.button {
+  background-image: linear-gradient(to bottom, #a24caf, #e00db9);
+}
+
+/* Hover Effect */
+.button:hover {
+  background-image: linear-gradient(to bottom, #36a3a3, #09e7d5);
+  transform: scale(1.05);
+}
+
+/* Remove Default Button Styling */
+.button:focus,
+.button:active {
+  outline: none;
+}
+
+/* Optional: Add Box Shadow for Depth */
+.button {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
